@@ -21,8 +21,6 @@ Because of the way benchmarks are scored, and because this is a *time* where sma
          200.816
 ```
 
-**Clarification** - the Archer repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This is true for the HFX part of the benchmark which is for a much larger system than we are procuring for the Grace procurement.
-
-For the procurement it is sufficient to run the first (setup) part of the benchmark (input_bulk_B88_3.inp).  
+**Clarification** - the Archer repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This is true for the HFX part of the benchmark. For the procurement it is sufficient to run the first (setup) part of the benchmark (input_bulk_B88_3.inp).  
 
 We currently have CP2K version 4.1, 6.1 and 7.1 deployed in ARC.  It is up to the vendor which version they use.
