@@ -11,16 +11,8 @@ grep "CP2K      " outputfile
 CP2K                                 1  1.0    0.178    0.295  200.814  200.816
 ```
 
-the time taken would be 200.816.
+the time taken would be 200.816 - and this is the value which should be reported.
 
-Because of the way benchmarks are scored, and because this is a *time* where smaller is better, then for scoring purposes this becomes the number of these that fit in an hour, so with the example above the score would be:
-
-```
-            3600
- score = ------- = 17.927
-         200.816
-```
-
-**Clarification** - the Archer repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This is true for the HFX part of the benchmark. For the procurement it is sufficient to run the first (setup) part of the benchmark (input_bulk_B88_3.inp).  
+**Clarification** - the ARCHER repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This is true for the HFX part of the benchmark. For the procurement it is sufficient to run the first (setup) part of the benchmark (input_bulk_B88_3.inp).  
 
 We currently have CP2K version 4.1, 6.1 and 7.1 deployed in ARC.  It is up to the vendor which version they use.
