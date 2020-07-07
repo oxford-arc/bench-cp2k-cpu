@@ -13,6 +13,15 @@ CP2K                                 1  1.0    0.178    0.295  200.814  200.816
 
 the time taken would be 200.816 - and this is the value which should be reported.
 
-**Clarification** - the ARCHER repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This is true for the HFX part of the benchmark. For the procurement it is sufficient to run the first (setup) part of the benchmark (input_bulk_B88_3.inp).  
+The ARCHER repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This is true for the HFX part of the benchmark. For the procurement it is sufficient to run the first (setup) part of the benchmark (input_bulk_B88_3.inp).  
 
 We currently have CP2K version 4.1, 6.1 and 7.1 deployed in ARC.  It is up to the vendor which version they use.
+
+# Results
+
+The setup part of the benchmark (input_bulk_B88_3.inp) was run on a recent ARC cluster. Using CP2K 6.1, built with GCC 8.3.0 and OpenMPI 3.1.4 
+
+Two Nodes (96 cores)
+```
+CP2K                                 1  1.0    0.040    0.046  139.110  139.112
+```
