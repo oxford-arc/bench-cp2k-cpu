@@ -13,7 +13,7 @@ CP2K                                 1  1.0    0.178    0.295  200.814  200.816
 
 the time taken would be 200.816 - and this is the value which should be reported.
 
-The ARCHER repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This is true for the HFX part of the benchmark. For the procurement it is sufficient to run the first (setup) part of the benchmark (input_bulk_B88_3.inp).  
+Scaling runs to the size of a proposed island would be useful for this benchmark.
 
 We currently have CP2K version 4.1, 6.1 and 7.1 deployed in ARC.  It is up to the vendor which version they use.
 
@@ -28,3 +28,17 @@ CP2K                                 1  1.0    0.042    0.048  122.936  122.941
 ```
 
 Result: `Total time: 122.941`
+
+Performance of the LiH-HFX Benchmark
+
+On 24 Nodes (1152 cores) 1 OMP thread per MPI task:
+
+```
+CP2K                                 1  1.0    1.186    3.113  825.443  825.445
+```
+
+Result: `Total time: 825.445`
+
+
+
+
