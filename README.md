@@ -19,6 +19,8 @@ We currently have CP2K version 4.1, 6.1 and 7.1 deployed in ARC.  It is up to th
 
 # Results
 
+## Setup Results
+
 The setup part of the benchmark (input_bulk_B88_3.inp) was run on a recent ARC cluster. Using CP2K 6.1, built with GCC 8.3.0 and OpenMPI 3.1.4 
 
 Three Nodes (144 cores)
@@ -29,7 +31,7 @@ CP2K                                 1  1.0    0.042    0.048  122.936  122.941
 
 Result: `Total time: 122.941`
 
-Performance of the LiH-HFX Benchmark
+## Performance of the LiH-HFX Benchmark
 
 On 24 Nodes (1152 cores) 1 OMP thread per MPI task:
 
