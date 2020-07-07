@@ -21,7 +21,10 @@ We currently have CP2K version 4.1, 6.1 and 7.1 deployed in ARC.  It is up to th
 
 The setup part of the benchmark (input_bulk_B88_3.inp) was run on a recent ARC cluster. Using CP2K 6.1, built with GCC 8.3.0 and OpenMPI 3.1.4 
 
-Two Nodes (96 cores)
+Three Nodes (144 cores)
 ```
-CP2K                                 1  1.0    0.040    0.046  139.110  139.112
+CP2K                                 1  1.0    0.042    0.048  122.936  122.941
+
 ```
+
+Best time: *122.941
