@@ -13,7 +13,7 @@ CP2K                                 1  1.0    0.178    0.295  200.814  200.816
 
 the time taken would be 200.816 - and this is the value which should be reported.
 
-Scaling runs to the size of a proposed island would be useful for this benchmark.
+Scaling runs to the proposed island size would be useful for this benchmark.
 
 We currently have CP2K version 4.1, 6.1 and 7.1 deployed in ARC.  It is up to the vendor which version they use.
 
