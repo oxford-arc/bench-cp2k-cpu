@@ -21,7 +21,7 @@ We currently have CP2K version 4.1, 6.1 and 7.1 deployed in ARC.  It is up to th
 
 The benchmarks were run on a recent ARC cluster, using CP2K 6.1, built with GCC 8.3.0, OpenMPI 4.0.4 and Intel MKL.
 
-## Setup Results
+## Setup
 
 Setup part of the benchmark (input_bulk_B88_3.inp):
 
