@@ -19,7 +19,7 @@ We currently have CP2K version 4.1, 6.1 and 7.1 deployed in ARC.  It is up to th
 
 # Results
 
-The benchmarks were run on a recent ARC cluster, using CP2K 6.1, built with GCC 8.3.0 and OpenMPI 4.0.4
+The benchmarks were run on a recent ARC cluster, using CP2K 6.1, built with GCC 8.3.0, OpenMPI 4.0.4 and Intel MKL.
 
 ## Setup Results
 
@@ -38,7 +38,7 @@ Result: `Total time: 122.941`
 On 24 nodes (1152 cores) 1 OMP thread per MPI task:
 
 ```
-CP2K                                 1  1.0    1.186    3.113  825.443  825.445
+CP2K                                 1  1.0    0.922    2.819  821.129  821.131
 ```
 
 Result: `Total time: 825.445`
