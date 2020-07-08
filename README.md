@@ -33,7 +33,7 @@ CP2K                                 1  1.0    0.042    0.048  122.936  122.941
 
 Result: `Total time: 122.941`
 
-## LiH-HFX Benchmark
+## LiH-HFX benchmark
 
 On 24 nodes (1152 cores) 1 OMP thread per MPI task:
 
